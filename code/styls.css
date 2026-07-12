@@ -202,7 +202,6 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 40px;
-    margin: auto;
 }
 
 /* Form */
@@ -244,11 +243,10 @@ footer {
 .checkbox input {
     width: 18px;
     height: 18px;
-    margin: 0;
+    
 }
 
 .checkbox label {
-    margin: 0;
     width: auto;
 }
 /* Button */
