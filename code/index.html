@@ -83,10 +83,11 @@
           </p>
         </div>
         <div class="price-tag-container">
-          <div class="card">
-            <h5>Standard</h5>
+          <div class="card size">
+            <h3>Standard</h3>
             <h1>$399</h1>
             <p>per person</p>
+            <hr>
             <ul>
               <li>Access to all 3 conference days</li>
               <li>48 curated technical talks</li>
@@ -96,17 +97,95 @@
               <button>Get Standard</button>
             </ul>
           </div>
-          <div class="card active"></div>
-          <div class="card"></div>
+          <div class="card active size">   
+                    <h3>Pro</h3>
+            <h1 class="">$749</h1>
+            <p>per person</p>
+            <hr>
+            <ul>
+              <li>Everything in Standard</li>
+              <li>Unlimited workshop access</li>
+              <li>Speaker meet & greet</li>
+              <li>VIP networking dinner</li>
+              <li>Lifetime recording access</li>
+              <li>1-on-1 mentorship (30 min)</li>
+              <button id="activebtn">Get Pro</button>
+          </div>
+          <div class="card size">
+             <h3>Team</h3>
+            <h1 class="">$5,999</h1>
+            <p>up to 10 people</p>
+            <hr>
+            <ul>
+              <li>Everything in Pro (10 seats)</li>
+              <li>Dedicated team lounge access</li>
+              <li>Private workshop booking</li>
+              <li>Company logo on event page</li>
+              <li>Recruitment booth (1 day)</li>
+              <li>Priority customer support</li>
+              <button>Contact Us</button>
+          </div>
         </div>
       </section>
     </main>
-    <footer>
-      <div class="footer">
-        <img src="../assets/footer-logo.png" id="footer-img" />
-        <a href="">© 2026 DevConf. All rights reserved.</a>
-      </div>
-      <div></div>
-    </footer>
+    <section>
+      <div class="container">
+        <form class="register-form">
+            <h1>Create Account</h1>
+            <p>Fill in the information below.</p>
+
+     <div class="input-group">
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" placeholder="Enter your name">
+</div>
+
+<div class="input-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="enter your email">
+</div>
+<div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password">
+</div>
+<div class="input-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" placeholder="Confirm your password">
+</div>
+  <div class="checkbox">
+    
+    <input class="checkbox" type="checkbox" id="terms"><label for="terms">I agree to the Terms & Conditions</label>
+    
+</div>
+            <div class="button-container">
+            <button type="submit">Register</button>
+</div>
+            <p class="login">
+                Already have an account?
+                <a href="#">Login</a>
+            </p>
+        </form>
+    </div>
+    </section>
+ <footer>
+    <div class="footer-container">
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul style="list-style: none; display: flex; gap: 10px;">
+                <li><a href="#"><img src="../assets/fblogo.png" alt=""></a></li>
+                <li><a href="#"><img src="../assets/Platform=LinkedIn, Color=Negative.svg" alt=""></a></li>
+                <li><a href="#"><img src="../assets/Vector.svg" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+      <div class="footer-logo">
+            <img src="../assets/footer-logo.png" alt="">
+        </div>
+      <a href="">Privacy Policy</a>
+      <a href="">Terms of Service</a>
+        <p>© 2026 DevConf. All Rights Reserved.</p>
+    </div>
+</footer>
+</footer>
   </body>
 </html>

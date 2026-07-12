@@ -52,6 +52,7 @@ a:hover {
   width: 265px;
   height: 65px;
   font-size: 25px;
+  margin-bottom: 60px;
 }
 #btn-container {
   position: absolute;
@@ -75,7 +76,7 @@ a:hover {
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  width: 700px;
+  width: fixed;
 }
 body {
   margin: 0%;
@@ -116,7 +117,6 @@ p {
 }
 .card img {
   width: 100%;
-  height: 250px;
   object-fit: cover;
   display: block;
 }
@@ -136,7 +136,186 @@ p {
   justify-content: center;
   gap: 25px;
 }
-footer {
+.active {
   background-color: #0d1b2a;
-  height: 100px;
+  color: aliceblue;
+}
+.active hr {
+  border-color: #34495e;
+}
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+.size {
+  width: 320px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 150px;
+  height: 450px;
+}
+ul {
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 12px;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px;
+}
+.active button {
+  background: #2962ff;
+  color: white;
+  border: none;
+}
+#activebtn:hover,
+#baner-reg-btn:hover,
+#reg-btn:hover {
+  background-color: blue;
+  color: white;
+}
+button:hover {
+  background-color: rgb(219, 216, 211);
+  color: black;
+  border-radius: 5px;
+}
+footer {
+  background-color: #0f1b2d;
+  padding: 30px 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sclogo{
+  size: 1px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: auto;
+}
+
+/* Form */
+.register-form {
+    background: #ffffff;
+    width: 1000px;
+    padding: 45px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.register-form h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.register-form p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+
+.register-form input:focus {
+    border-color: #007bff;
+}
+
+.checkbox {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox input {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+}
+
+.checkbox label {
+    margin: 0;
+    width: auto;
+}
+/* Button */
+button {
+    width: 45%;
+    padding: 12px;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Login Text */
+.login {
+    margin-top: 20px;
+}
+
+.login a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    display: block;
+    width: 70%;
+    padding: 12px;
+    margin: 0 auto 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.input-group {
+    width: 70%;
+    margin: 0 auto 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.input-group input {
+    width: 100%;
+
+}
+.register-form label {
+    display: block;
+    width: 70%;
+    margin: 0 auto 4px;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+label {
+    width: 70%;
+    margin: 0 auto;
 }
